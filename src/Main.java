@@ -29,11 +29,11 @@ public class Main {
         System.out.println();
         System.out.printf("The total tip is $" + "%.2f",tipAmount); //Formats tip amount to have 2 decimal places
         System.out.println();
-        System.out.printf("The total price with the tip is $" + "%.2f",totalWithTip); //Formats tip amount to have 2 decimal places
+        System.out.printf("The total price with the tip is $" + "%.2f",totalWithTip); //Formats total price to have 2 decimal places
         System.out.println();
-        System.out.printf("The total tip per person is $" + "%.2f",tipPerPerson); //Formats tip amount to have 2 decimal places
+        System.out.printf("The total tip per person is $" + "%.2f",tipPerPerson); //Formats total tip per person to have 2 decimal places
         System.out.println();
-        System.out.printf("The total with the tip per person is $" + "%.2f",totalPerPerson); //Formats tip amount to have 2 decimal places
+        System.out.printf("The total with the tip per person is $" + "%.2f",totalPerPerson); //Formats total with tip to have 2 decimal places
 
     }
 }
